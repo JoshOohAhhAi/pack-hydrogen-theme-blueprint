@@ -1,0 +1,82 @@
+<!-- custom-flexbox-section.liquid -->
+<div
+  class="flex-container"
+  style="background-color: {{ settings.background_color }}; background-image: url({{ settings.background_image | img_url: 'medium' }});"
+>
+  <h2>{{ settings.section_heading }}</h2>
+  <p>{{ settings.section_description }}</p>
+
+  <div class="flex-items">
+    {% for block in section.blocks %}
+      <div class="flex-item">
+        <h3>{{ block.settings.block_heading }}</h3>
+        <p>{{ block.settings.block_text }}</p>
+        {% if block.settings.block_image %}
+          <img src="{{ block.settings.block_image | img_url: 'medium' }}" alt="{{ block.settings.block_heading }}">
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Flexbox Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Default Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "section_description",
+      "label": "Section Description",
+      "default": "This is the default description for the section."
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "content_block",
+      "name": "Content Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "block_heading",
+          "label": "Block Heading",
+          "default": "Block Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "block_text",
+          "label": "Block Text",
+          "default": "This is the content block text."
+        },
+        {
+          "type": "image_picker",
+          "id": "block_image",
+          "label": "Block Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Flexbox Section",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}

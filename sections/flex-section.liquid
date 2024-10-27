@@ -1,0 +1,61 @@
+{% schema %}
+{
+  "name": "Custom Flexbox Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Default Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "section_description",
+      "label": "Section Description",
+      "default": "This is the default description for the section."
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "content_block",
+      "name": "Content Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "block_heading",
+          "label": "Block Heading",
+          "default": "Block Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "block_text",
+          "label": "Block Text",
+          "default": "This is the content block text."
+        },
+        {
+          "type": "image_picker",
+          "id": "block_image",
+          "label": "Block Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Flexbox Section",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}

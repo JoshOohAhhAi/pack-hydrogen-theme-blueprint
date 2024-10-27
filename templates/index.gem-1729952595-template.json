@@ -1,0 +1,345 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "text_Ai38JG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Enter the Holographic Realm",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "donate now",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "text_Ai38JG",
+        "heading",
+        "button"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/joshoohahh.com_Logo_Tree_of_Life_in_a_lions_head_with_a_purple__a8b538c6-d6f8-410f-8c53-3288c13a5f00.png",
+        "image_2": "{{ shop.brand.square_logo }}",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "<p>{{ section.settings.collection.title }}<\/p>",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-2",
+        "image_ratio": "adapt",
+        "image_shape": "blob",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_yUQyNd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EApCQC": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_7nHVcq": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h2>Explore immersive worlds through cutting-edge holographic experiences.<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EApCQC",
+        "text_7nHVcq"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "image_banner_TqFpLH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_RLCrnD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pioneers in AR and holographic technology, we redefine reality with virtual innovation.",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_ht7NEw": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Contact us",
+            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_r38ahr": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RLCrnD",
+        "buttons_ht7NEw",
+        "text_r38ahr"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/digital-products-bold-5-middle.jpg",
+        "image_2": "shopify:\/\/shop_images\/digital-products-bold-4-middle.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_WwYiUb": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_6mHYVW": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6mHYVW"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/digital-products-bold-3-middle.jpg",
+        "image_2": "shopify:\/\/shop_images\/digital-products-bold-1-middle.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_peEqR9": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ThRANB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shaping the future with AR and holographic wonders, where virtual meets reality.",
+            "heading_size": "h2"
+          }
+        },
+        "text_kcmWTK": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ThRANB",
+        "text_kcmWTK"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/digital-products-bold-1-middle.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1729120626d7fe58cf": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_hp6wmY": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "",
+            "html_area": ""
+          }
+        },
+        "juniper_tiktok_feed_mintty_tiktok_feed_WL6YiQ": {
+          "type": "shopify:\/\/apps\/juniper-tiktok-feed\/blocks\/mintty-tiktok-feed\/fa514c33-5475-4484-b270-5f1e7eb87a9a",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_hp6wmY",
+        "juniper_tiktok_feed_mintty_tiktok_feed_WL6YiQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "featured_blog_aM3qaq": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1729873851ac2de9e8": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_hYwyEH": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_hYwyEH"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1729871897113444ba": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_rYwMaG": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "disabled": true,
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_rYwMaG"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "rich_text_yUQyNd",
+    "image_banner_TqFpLH",
+    "image_banner_WwYiUb",
+    "image_banner_peEqR9",
+    "1729120626d7fe58cf",
+    "featured_blog_aM3qaq",
+    "1729873851ac2de9e8",
+    "1729871897113444ba"
+  ]
+}
